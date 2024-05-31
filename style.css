@@ -23,8 +23,8 @@
     background: #02667f;
     padding:50px 60px 70px;
     text-align:center;
-
 }
+
 .form-box h1{
     font-size: 30px;
     margin-bottom: 50px;
@@ -82,8 +82,8 @@ form p a{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    
 }
+
 .btn-field button{
     flex-basis: 40%;
     background: blueviolet;
@@ -93,6 +93,12 @@ form p a{
     border: 0;
     outline: 0;
     cursor: pointer;
+}
+
+.btn-field button:hover{
+    background:#eaeaea;
+    color: blueviolet;
+    transition-duration: 0.5s;
 }
   
 .input-group{
