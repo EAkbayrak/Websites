@@ -12,6 +12,7 @@
     background-size: cover;
     position: cover;
 }
+
 .form-box{
     width:50%;
     height: 50%;
@@ -23,6 +24,7 @@
     background: #02667f;
     padding:50px 60px 70px;
     text-align:center;
+    border-radius: 18px;
 }
 
 .form-box h1{
@@ -41,7 +43,7 @@
     content: ' ';
     width: 30px;
     height: 4;
-    border-radius: 3px;
+    border-radius: 20px;
     background: blueviolet;
     position: absolute;
     bottom: -12px;
@@ -52,7 +54,7 @@
 .input-field{
     background: #eaeaea;
     margin: 15px 0;
-    border-radius: 3px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
 }
@@ -85,6 +87,16 @@ form p a{
 }
 
 .btn-field button{
+    flex-basis: 40%;
+    background: blueviolet;
+    color: #eaeaea;
+    height: 50px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.btn-field buttoon p a{
     flex-basis: 40%;
     background: blueviolet;
     color: #eaeaea;
